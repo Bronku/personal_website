@@ -1,0 +1,65 @@
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --accent: #2563eb;
+  --dim: #666;
+  --code-bg: #f4f4f4;
+}
+
+body {
+  font-family: "Liberation Sans", sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+header {
+  border-bottom: 2px solid var(--text);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+h3 span {
+  font-family: monospace;
+  font-size: 0.85rem;
+  background: var(--code-bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: normal;
+  margin-left: 10px;
+  color: var(--text);
+}
+
+footer {
+  margin-top: 4rem;
+  border-top: 1px solid #eee;
+  font-size: 0.85rem;
+  color: var(--dim);
+}
