@@ -26,6 +26,22 @@
         Ruby, Rust, and TypeScript, through academic and personal projects,
         including self-hosted infrastructure and low-level development.
       </p>
+
+      <h2>AVAILABILITY & COMMITMENT</h2>
+      <p>
+        I am looking for a long-term professional relationship rather than a
+        short-term placement. My intended availability is as follows:
+      </p>
+      <ul>
+        <li>
+          <b>Current Semester:</b> Part-time internship (approx. 20h/week).
+        </li>
+        <li><b>Summer 2026:</b> Transition to full-time engineering.</li>
+        <li>
+          <b>Academic Year 2026/27:</b> Return to part-time until graduation.
+        </li>
+        <li><b>Post-Graduation:</b> Transition to permanent full-time role.</li>
+      </ul>
     </section>
 
     <section>
@@ -33,8 +49,8 @@
       <section>
         <h3>B+ Tree Implementation <span>Rust</span></h3>
         <p>
-          A B+ tree implementation focusing on memory-efficient data structures
-          and safety.
+          A disk-friendly B+ tree implementation focusing on memory-efficient
+          data structures and safety.
         </p>
       </section>
 
@@ -44,28 +60,31 @@
           <span>Flex / Bison / C++ / Make</span>
         </h3>
         <p>
-          A simplified transpiler for converting Python scripts to Ruby. This
-          project allowed me to familiarize myself with lexer and parser design,
-          while effectively modeling real-world objects through class design. It
-          also required an in-depth study of Makefiles to automate a complex
-          build process involving circular dependencies between various files.
+          A compiler-front-end project focused on lexer/parser design. Solved
+          complex build-orchestration challenges involving circular dependencies
+          by mastering advanced Makefile configurations. This project allowed me
+          to familiarize myself with lexer and parser design, engineer a lexing
+          solution for significant indentation in Python, while effectively
+          modeling real-world objects through class design.
         </p>
       </section>
 
       <section>
         <h3>External Sorting Implementation <span>C++</span></h3>
         <p>
-          An implementation for sorting files too large to fit in primary
-          memory. This project required efficient disk-write management and the
-          utilization of various data structures, such as a min-heap.
+          High-performance implementation for sorting datasets exceeding RAM
+          capacity. Utilized min-heaps and optimized disk I/O buffers to manage
+          large-scale data processing efficiently.
         </p>
       </section>
 
       <section>
-        <h3>Order Tracker for Cake Shop <span>Go / SQLite</span></h3>
+        <h3>Order Tracker for Cake Shop <span>Go / SQLite / HTMX</span></h3>
         <p>
-          A full-stack solution for local business logistics. Focused on a fast,
-          dependency-light frontend. Fully managed and deployed independently.
+          A production-ready logistics system for a local business. Features
+          transactional integrity, secure session-based auth, and a dynamic UI
+          using HTMX. The entire stack is compiled into a single binary using
+          Go's embed system for zero-dependency deployment.
         </p>
       </section>
 
@@ -83,15 +102,31 @@
     </section>
 
     <section>
-      <h2>TECHNICAL PHILOSOPHY</h2>
+      <h2>DEVELOPMENT PHILOSOPHY</h2>
       <p>
-        I value <b>simplicity, ownership, and efficiency</b>. My preference for
-        languages like C and Go stems from a desire to understand the hardware
-        beneath the code. I apply this logic to my homelab, where I prioritize
-        self-hosting over third-party dependencies. This is why I prefer ssh to
-        my home server over GitHub and strive to minimize dependencies in my own
-        code.
+        I believe in <b>Deep Ownership</b>. Beyond writing code, I strive to
+        understand the entire delivery chain—from database commit logs and
+        memory management to final binary deployment. I am guided by:
       </p>
+      <ul>
+        <li>
+          <b>Intentional Tooling:</b> I choose stacks based on problem-solving
+          efficiency rather than industry trends. This pragmatic approach
+          ensures the right tool is used for the specific performance
+          requirements of the task.
+        </li>
+        <li>
+          <b>Minimalism:</b> I prioritize low dependency counts to reduce attack
+          surfaces, minimize maintenance debt, and ensure lightning-fast
+          execution—whether in a systems binary or a browser-based UI.
+        </li>
+        <li>
+          <b>Transparency:</b> I value understanding the abstractions I use. My
+          experience with systems-level languages (C, Go, Rust) provides me with
+          a unique perspective on optimizing high-level applications and
+          debugging complex performance bottlenecks.
+        </li>
+      </ul>
     </section>
 
     <section>
